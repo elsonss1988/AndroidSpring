@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Hello</string>
     <string name="first_screen">Hello World</string>
+    <string name="cadastrar_btn">Cadastrar</string>
 </resources>
