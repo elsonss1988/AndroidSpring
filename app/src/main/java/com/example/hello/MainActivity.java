@@ -48,9 +48,10 @@ public class MainActivity extends AppCompatActivity {
         password=edtPass.getText().toString().trim();
 
         if(!email.isEmpty() && !password.isEmpty()){
-            Intent clikOne = new Intent(MainActivity.this,HomeActivity.class);
-            startActivity(clikOne);
+            Intent clickOne = new Intent(MainActivity.this,HomeActivity.class);
+            startActivity(clickOne);
             finish();
+            finishAffinity();
         }
         else{
             Toast.makeText(this, "Login ou Senha incorretos", Toast.LENGTH_SHORT).show();
